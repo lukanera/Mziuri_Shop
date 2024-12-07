@@ -1,0 +1,182 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "Product 1",
+            "description": "Description for Product 1.",
+            "price": "19.99",
+            "create_date": "2024-12-07T10:00:00Z",
+            "write_time": "2024-12-07T10:00:00Z",
+            "views": 100
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "Product 2",
+            "description": "Description for Product 2.",
+            "price": "29.99",
+            "create_date": "2024-12-06T10:00:00Z",
+            "write_time": "2024-12-06T10:00:00Z",
+            "views": 200
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Product 3",
+            "description": "Description for Product 3.",
+            "price": "39.99",
+            "create_date": "2024-12-05T10:00:00Z",
+            "write_time": "2024-12-05T10:00:00Z",
+            "views": 300
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "Product 4",
+            "description": "Description for Product 4.",
+            "price": "49.99",
+            "create_date": "2024-12-04T10:00:00Z",
+            "write_time": "2024-12-04T10:00:00Z",
+            "views": 150
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "Product 5",
+            "description": "Description for Product 5.",
+            "price": "59.99",
+            "create_date": "2024-12-03T10:00:00Z",
+            "write_time": "2024-12-03T10:00:00Z",
+            "views": 120
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "name": "Product 6",
+            "description": "Description for Product 6.",
+            "price": "69.99",
+            "create_date": "2024-12-02T10:00:00Z",
+            "write_time": "2024-12-02T10:00:00Z",
+            "views": 180
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "name": "Product 7",
+            "description": "Description for Product 7.",
+            "price": "79.99",
+            "create_date": "2024-12-01T10:00:00Z",
+            "write_time": "2024-12-01T10:00:00Z",
+            "views": 250
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "name": "Product 8",
+            "description": "Description for Product 8.",
+            "price": "89.99",
+            "create_date": "2024-11-30T10:00:00Z",
+            "write_time": "2024-11-30T10:00:00Z",
+            "views": 230
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "name": "Product 9",
+            "description": "Description for Product 9.",
+            "price": "99.99",
+            "create_date": "2024-11-29T10:00:00Z",
+            "write_time": "2024-11-29T10:00:00Z",
+            "views": 270
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "name": "Product 10",
+            "description": "Description for Product 10.",
+            "price": "109.99",
+            "create_date": "2024-11-28T10:00:00Z",
+            "write_time": "2024-11-28T10:00:00Z",
+            "views": 290
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "name": "Product 11",
+            "description": "Description for Product 11.",
+            "price": "119.99",
+            "create_date": "2024-11-27T10:00:00Z",
+            "write_time": "2024-11-27T10:00:00Z",
+            "views": 310
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "name": "Product 12",
+            "description": "Description for Product 12.",
+            "price": "129.99",
+            "create_date": "2024-11-26T10:00:00Z",
+            "write_time": "2024-11-26T10:00:00Z",
+            "views": 350
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "name": "Product 13",
+            "description": "Description for Product 13.",
+            "price": "139.99",
+            "create_date": "2024-11-25T10:00:00Z",
+            "write_time": "2024-11-25T10:00:00Z",
+            "views": 400
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "name": "Product 14",
+            "description": "Description for Product 14.",
+            "price": "149.99",
+            "create_date": "2024-11-24T10:00:00Z",
+            "write_time": "2024-11-24T10:00:00Z",
+            "views": 420
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "name": "Product 15",
+            "description": "Description for Product 15.",
+            "price": "159.99",
+            "create_date": "2024-11-23T10:00:00Z",
+            "write_time": "2024-11-23T10:00:00Z",
+            "views": 500
+        }
+    }
+]
