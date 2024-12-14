@@ -1,6 +1,6 @@
-from django.shortcuts import render, get_object_or_404
-from unicodedata import category
-
+from django.shortcuts import render, get_object_or_404, redirect
+from .forms import ProductForm
+from django.contrib import messages
 from .models import Product, Category
 
 def home(request):
@@ -26,7 +26,11 @@ def home(request):
     if category:
         filters['category_id']  = category
 
+    sort_by = request.GET.get('sort')
+
     products = Product.objects.filter(**filters)
+    if sort_by:
+        products = products.order_by(sort_by)
     categories = Category.objects.all()
 
 
@@ -39,3 +43,12 @@ def product_detail(request, id):
     product.save()
     return render(request, 'product_detail.html', {"product": product})
 
+def create_product(request):
+    form = ProductForm()
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.add_message(request, messages.SUCCESS, 'Your product has been created successfully.')
+            return redirect('home')
+    return render(request, 'product_form.html', {'form': form})
