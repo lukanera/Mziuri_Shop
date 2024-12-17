@@ -27,8 +27,17 @@
         <label for="inputAddress" class="form-label">Address</label>
         <input type="text" class="form-control" id="inputAddress" name="address">
       </div>
+      <div class="col-md-6">
+        <label for="sort" class="form-label">Sort</label>
+        <select id="sort" class="form-control" name="sort">
+          <option selected disabled>Choose...</option>
+          {% for sort in sorts %}
+              <option value="{{sort.id}}">{{ sort.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Search</button>
+        <button type="submit" class=" btn btn-primary">Search</button>
       </div>
     </form>
 

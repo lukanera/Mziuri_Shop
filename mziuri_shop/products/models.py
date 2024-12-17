@@ -6,6 +6,12 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+class Sort(models.Model):
+    name = models.CharField(max_length=150)
+
+    def __str__(self):
+        return self.name
+
 class Product(models.Model):
     name = models.CharField(max_length=150, default='Product Name')
     description = models.TextField(default='')
