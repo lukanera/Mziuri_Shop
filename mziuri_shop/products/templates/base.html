@@ -20,13 +20,7 @@
           <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="{% url 'create_product' %}">Create product</a>
         </li>
       </ul>
     </div>
@@ -34,7 +28,15 @@
 </nav>
 
 
+
 <div class="container m-5">
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li {% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %} >{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
     {% block content %}
     {% endblock %}
 </div>

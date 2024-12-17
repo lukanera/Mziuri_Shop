@@ -31,13 +31,14 @@
         <label for="sort" class="form-label">Sort</label>
         <select id="sort" class="form-control" name="sort">
           <option selected disabled>Choose...</option>
-          {% for sort in sorts %}
-              <option value="{{sort.id}}">{{ sort.name }}</option>
-          {% endfor %}
+              <option value="price">Price: lowest first</option>
+              <option value="-price">Price: highest first</option>
+              <option value="create_date">Date: oldest first</option>
+              <option value="-create_date">Date: newest first</option>
         </select>
       </div>
       <div class="col-12">
-        <button type="submit" class=" btn btn-primary">Search</button>
+        <button type="submit" class="btn btn-primary">Search</button>
       </div>
     </form>
 
@@ -45,13 +46,14 @@
     {% for product in products %}
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="data:image/webp;base64,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"
-                     class="card-img-top" alt="...">
+                <img src="{{ product.image.url }} " class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ product.name }}</h5>
                     <p class="card-text fw-bold">{{product.price}} $</p>
                     <p class="card-text">{{ product.description }}</p>
                     <a href="{% url 'product_detail' product.id %}" class="btn btn-primary">{{product.name}}</a>
+                    <a href="{% url 'update_product' product.id %}" class="btn btn-primary">Update Product</a>
+                    <a href="{% url 'delete_product' product.id %}" style=" color: red " class="btn btn-primary">Delete</a>
                 </div>
             </div>
         </div>
