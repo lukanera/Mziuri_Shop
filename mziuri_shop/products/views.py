@@ -70,5 +70,3 @@ def delete_product(request, id):
     messages.add_message(request, messages.SUCCESS, f'{product.name} has been deleted successfully.')
     return redirect('home')
 
-
-# ყველაფრის გაკეთება ვერ მოვასწარი და ვერ შევამოწმე

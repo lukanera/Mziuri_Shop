@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58b647ce-77a5-4dad-9c16-8ba90ac3ace6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mziuri_shop/media/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mziuri_shop/products/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mziuri_shop/products/templates/product_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/mziuri_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/mziuri_shop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/products/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/products/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/products/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/products/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/products/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/products/templates/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/products/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mziuri_shop/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mziuri_shop/products/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +37,85 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/STUDENT/PycharmProjects/O.Shop/mziuri_shop/media"
+    "last_opened_file_path": "C:/Users/STUDENT/PycharmProjects/O.Shop/mziuri_shop/users"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\STUDENT\PycharmProjects\O.Shop\mziuri_shop\users" />
       <recent name="C:\Users\STUDENT\PycharmProjects\O.Shop\mziuri_shop\media" />
       <recent name="C:\Users\STUDENT\PycharmProjects\O.Shop\mziuri_shop\products" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Mziuri.Shop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Mziuri.Shop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Mziuri.Shop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Mziuri.Shop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
